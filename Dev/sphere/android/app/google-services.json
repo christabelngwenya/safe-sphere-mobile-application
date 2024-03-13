@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "935254924601",
+    "project_id": "sphere-5dde8",
+    "storage_bucket": "sphere-5dde8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935254924601:android:130264c7442038bdb31ce8",
+        "android_client_info": {
+          "package_name": "com.example.sphere"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_S9rg7ZPIfaq-aCKIQXMC5F5hwk7EWDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
