@@ -14,11 +14,17 @@ class _PanicButtonPageState extends State<PanicButtonPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Panic Button'),
+        centerTitle: true,
+        title: Text(
+          'Panic Button',
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Color(0xFF6B3A6B), // Set the background color to rgb(107, 58, 107)
+
       ),
       body: Center(
         child: Text(
-          'Press the Panic Button to send an emergency email',
+          'Press the Panic Button to send an emergency email if you in any form of danger',
           style: TextStyle(fontSize: 20.0),
         ),
       ),

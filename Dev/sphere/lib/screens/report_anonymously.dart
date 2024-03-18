@@ -73,6 +73,18 @@ class _ReportAnonymously extends State<ReportAnonymously> {
             OutlinedButton(
               child: Text('Send Report'),
               onPressed: () {
+                // Generate a unique identifier for the report
+                final reportId = UniqueKey().hashCode;
+
+                // Check if the report is not empty
+                if (_report.isEmpty) {
+                  displayToastMessage("Please enter your report before submitting.", context);
+                  return;
+                }
+
+                // Submit the report anonymously
+                submitReportAnonymously(_report, reportId); // Implement this function to handle the report submission
+
                 showMaterialDialog<ButtonAction>(
                   context: context,
                   child: AlertDialog(
@@ -109,4 +121,10 @@ class _ReportAnonymously extends State<ReportAnonymously> {
 
 displayToastMessage(String message, BuildContext context) {
   Fluttertoast.showToast(msg: message);
+}
+
+// Implement the submitReportAnonymously function to handle the report submission
+void submitReportAnonymously(String report, int reportId) {
+  // sending report to server with the reportId
+  print("Report submitted anonymously with ID: $reportId");
 }
