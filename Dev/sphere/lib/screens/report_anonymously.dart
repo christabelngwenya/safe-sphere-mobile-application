@@ -4,9 +4,9 @@ import 'nav.dart';
 import 'confirm.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
-class Report extends StatefulWidget {
+class ReportAnonymously extends StatefulWidget {
   @override
-  _Report createState() => _Report();
+  _ReportAnonymously createState() => _ReportAnonymously();
 }
 
 enum ButtonAction {
@@ -14,7 +14,7 @@ enum ButtonAction {
   agree,
 }
 
-class _Report extends State<Report> {
+class _ReportAnonymously extends State<ReportAnonymously> {
   void showMaterialDialog<T>({required BuildContext context, required Widget child}) {
     showDialog<T>(
       context: context,
@@ -91,7 +91,7 @@ class _Report extends State<Report> {
                       TextButton(
                         child: const Text('Agree'),
                         onPressed: () {
-                          displayToastMessage("Thank you, for your  anonymous report we will do our best to help", context);
+                          displayToastMessage("Thank you, for your anonymous report we will do our best to help", context);
                           Navigator.pop(context, ButtonAction.agree);
                         },
                       ),

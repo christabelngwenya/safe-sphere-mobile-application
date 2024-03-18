@@ -22,7 +22,7 @@ class ReportOptionsPage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => Report(),
+                    builder: (context) =>Report(),
                   ),
                 );
               },
@@ -35,7 +35,7 @@ class ReportOptionsPage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => report_anonymously(),
+                    builder: (context) =>ReportAnonymously(),
                   ),
                 );
               },
