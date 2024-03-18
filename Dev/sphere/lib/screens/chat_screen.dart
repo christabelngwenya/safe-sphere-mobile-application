@@ -12,7 +12,7 @@ class ChatScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Sarah L.'),
+        title: Text('Counsellor Sarah .'),
         actions: [
           DropdownButton(
             icon: Icon(
