@@ -19,8 +19,11 @@ class _Vacancies extends State<Vacancies> {
       drawer: NavDrawer(),
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Safe Sphere'),
-        backgroundColor: Colors.purple[700],
+        title: Text(
+          'Vacancy list',
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Color(0xFF6B3A6B), // Set the background color to rgb(107, 58, 107)
       ),
 
     body: Container(

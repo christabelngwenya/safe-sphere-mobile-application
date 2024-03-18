@@ -123,9 +123,12 @@ class _LoginSignupState extends State<LoginSignup> {
       ),
     );
 
-    return new Scaffold(
+    return Scaffold(
       appBar: new AppBar(
-        title: new Text('Safe Sphere Login'),
+        title: new Text(
+          'Safe Sphere',
+          style: TextStyle(color: Colors.white),
+        ),
         centerTitle: true,
         backgroundColor: Colors.purple,
       ),

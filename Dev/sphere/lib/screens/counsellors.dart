@@ -24,8 +24,12 @@ class _CounsellorsState extends State<Counsellors> {
       drawer: NavDrawer(),
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Top Counsellors'),
-        backgroundColor: Colors.purple[700],
+        title: Text(
+          'Counsellors',
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Color(0xFF6B3A6B), // Set the background color to rgb(107, 58, 107)
+
       ),
       body: Container(
         child: Column(

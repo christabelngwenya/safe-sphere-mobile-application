@@ -16,9 +16,9 @@ class _OrientationInfo extends State<OrientationInfo> {
         centerTitle: true,
         title: Text(
           'Safe Sphere',
-          style: TextStyle(color: Colors.white), // Set the text color to white
+          style: TextStyle(color: Colors.white),
         ),
-        backgroundColor: Colors.purple[700],
+        backgroundColor: Color(0xFF6B3A6B), // Set the background color to rgb(107, 58, 107)
       ),
       body: Container(
         child: SingleChildScrollView( // Wrap the Column with SingleChildScrollView

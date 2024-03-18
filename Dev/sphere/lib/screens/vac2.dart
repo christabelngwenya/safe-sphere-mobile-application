@@ -15,9 +15,11 @@ class _Vacancy2 extends State<Vacancy2> {
     return Scaffold(
       drawer: NavDrawer(),
       appBar: AppBar(
-        centerTitle: true,
-        title: Text('Safe Sphere'),
-        backgroundColor: Colors.purple[700],
+        centerTitle: true,title: Text(
+        'Safe Sphere',
+        style: TextStyle(color: Colors.white),
+      ),
+        backgroundColor: Color(0xFF6B3A6B), // Set the background color to rgb(107, 58, 107)
       ),
 
     body: Container(

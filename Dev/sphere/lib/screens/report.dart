@@ -46,11 +46,15 @@ class _Report extends State<Report> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       drawer: NavDrawer(),
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Report '),
-        backgroundColor: Colors.purple[700],
+        title: Text(
+          'Report Your Case',
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Color(0xFF6B3A6B), // Set the background color to rgb(107, 58, 107)
       ),
 
     body: Container (

@@ -42,8 +42,8 @@ class SettingsPage2 extends StatelessWidget {
     /// ----------------------------------------------------------
 
     return Scaffold(
+      backgroundColor: Color(0xFF6B3A6B), // Set the background color to rgb(107, 58, 107)
 
-      backgroundColor: Colors.pink[700],
 
       body: Theme(
 
@@ -131,7 +131,7 @@ class SettingsPage2 extends StatelessWidget {
 
                           Text(
 
-                            "Caroline Munjoma",
+                            "student",
 
                             style: TextStyle(
 
@@ -181,7 +181,7 @@ class SettingsPage2 extends StatelessWidget {
 
                   subtitle: Text(
 
-                    "r1910753@students.msu.ac.zw",
+                    "student.gmail.com",
 
                     style: TextStyle(
 
